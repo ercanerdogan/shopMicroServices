@@ -19,3 +19,7 @@ to check if mongo is running
 you should see the result something like that..
 
 - docker exec -it shopping-mongo /bin/bash  // -it parameter means interactive terminal
+
+# Install MongoDB.Driver NuGet Package for Catalog.API via .net cli command
+
+PM> Install-Package MongoDB.Driver
